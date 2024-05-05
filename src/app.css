@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .bg-display {
+        @apply bg-primary-950;
+    }
+
+    .bg-clickable {
+        @apply bg-primary-800;
+    }
+
+    .text-disabled {
+        @apply text-gray-600;
+    }
+
+    * {
+        touch-action: pan-x pan-y;
+    }
+
+    body {
+        @apply bg-background;
+        @apply font-medium text-text;
+        @apply overflow-hidden;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    h1 {
+        @apply text-3xl;
+        @apply font-extrabold;
+    }
+
+    h2 {
+        @apply text-2xl;
+        @apply font-bold;
+    }
+
+    h3 {
+        @apply text-xl;
+        @apply font-semibold;
+    }
+
+    input {
+        @apply bg-display disabled:text-disabled rounded-md p-1 disabled:opacity-50;
+    }
+
+    /* Gradients */
+    .gradient-1-dark {
+        background-size: 100% 100%;
+        background-position: 0 0,0 0;
+        background-image: radial-gradient(69% 38% at -29% 97%, #2456DF 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #040404 0%, #040404 100%);
+    }
+
+    .gradient-1-light {
+        background-size: 100% 100%;
+        background-position: 0 0,0 0;
+        background-image: radial-gradient(69% 38% at -29% 97%, #2456DF 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #FAFAFA 0%, #FAFAFA 100%);
+    }
+}
