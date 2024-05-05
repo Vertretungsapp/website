@@ -35,11 +35,11 @@
 		<h1 class="text-7xl">Vertretungsapp<span class="text-primary">.</span></h1>
 		<h2>Deine Alternative zu VpMobil!</h2>
 		<div class="flex items-center gap-2">
-			<Button href="https://app.vertretungsapp.de">
+			<Button href="https://app.vertretungsapp.de" target="_blank">
 				<ArrowUpRightFromSquareOutline class="me-2" /> Zur App
 			</Button>
 
-			<Button href="/discord" color="alternative">
+			<Button href="/discord" color="alternative" target="_blank">
 				<DiscordSolid class="me-2" /> Discord
 			</Button>
 
