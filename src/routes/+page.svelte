@@ -1,6 +1,6 @@
 <script>
 	import { Button, DeviceMockup } from 'flowbite-svelte';
-	import { ArrowUpRightFromSquareOutline, DiscordSolid, MailBoxSolid } from 'flowbite-svelte-icons';
+	import { ArrowUpRightFromSquareOutline, DiscordSolid, GithubSolid, MailBoxSolid } from 'flowbite-svelte-icons';
 	import { fly } from 'svelte/transition';
 	import { onMount } from 'svelte';
 
@@ -41,6 +41,10 @@
 
 			<Button href="/discord" color="alternative" target="_blank">
 				<DiscordSolid class="me-2" /> Discord
+			</Button>
+
+			<Button href="/github" color="alternative" target="_blank">
+				<GithubSolid class="me-2" /> Github
 			</Button>
 
 			<Button href="mailto:support@vertretungsapp.de" color="alternative">
