@@ -44,7 +44,7 @@
 			</Button>
 
 			<Button href="/github" color="alternative" target="_blank">
-				<GithubSolid class="me-2" /> Github
+				<GithubSolid class="me-2" /> GitHub
 			</Button>
 
 			<Button href="mailto:support@vertretungsapp.de" color="alternative">
