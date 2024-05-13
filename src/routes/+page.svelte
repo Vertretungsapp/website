@@ -11,6 +11,13 @@
 	})
 </script>
 
+<svelte:head>
+	<meta name="description" content="Vertretungsapp ist deine Alternative zu VpMobil. Neben den klassischen Funktionen kannst du nun auch Raum- und Lehrerpläne einsehen und viele weiter Features nutzen, die deinen Alltag vereinfachen." />
+	<meta name="keywords" content="Vertretungsapp, VpMobil, Vertretungsplan, Vertretungspläne, Vertretungsplanapp, Indiware, App" />
+	<meta name="author" content="Vertretungsapp Development" />
+	<meta name="robots" content="index, nofollow" />
+</svelte:head>
+
 <section class="w-full flex items-stretch justify-center lg:justify-between lg:items-center flex-col lg:flex-row py-4 min-h-dvh gradient-1-light dark:gradient-1-dark">
 	<div class="w-full order-2 lg:order-1 flex items-center justify-center relative p-16">
 		<div class="relative group flex flex-col">
