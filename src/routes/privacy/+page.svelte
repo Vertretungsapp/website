@@ -1,11 +1,11 @@
 <script>
-	import { ArrowLeftOutline, BackwardStepSolid } from 'flowbite-svelte-icons';
+	import { ArrowLeftOutline } from 'flowbite-svelte-icons';
 	import { Button } from 'flowbite-svelte';
 </script>
 
 <section class="w-full md:max-w-[50%] h-screen p-16">
 	<Button href="/" color="alternative"><ArrowLeftOutline/></Button>
-	<h1 class="text-4xl my-8">Vertretungsapp<span class="text-primary">.</span></h1>
+	<h1 class="text-2xl lg:text-4xl  my-8">Vertretungsapp<span class="text-primary">.</span></h1>
 
 	<h1>Datenschutz&shy;erkl&auml;rung</h1>
 	<h2 class="mt-4">1. Datenschutz auf einen Blick</h2>
@@ -200,7 +200,7 @@
 	<h3>Verwendung des Analyse-Tools "Sentry"</h3>
 	<p>Wir nutzen das Analyse-Tool "Sentry", bereitgestellt von Sentry.io, zur Fehlerbehebung und zur Verbesserung der Stabilität unserer Website. Durch Sentry werden technische Daten (z. B. IP-Adresse, Browserdaten, Geräteinformationen) erfasst, um Fehler und Probleme auf der Website zu identifizieren und zu analysieren. Diese Daten werden anonymisiert und dienen ausschließlich internen Zwecken.</p>
 	<h2 class="mt-4">5. G&uuml;ltigkeit</h2>
-	<ul class="list-disc list-inside">
+	<ul class="list-disc list-inside py-4 text-sm">
 		<li>
 			<a href="https://vertretungsapp.de" class="text-primary">https://vertretungsapp.de</a>
 		</li>
@@ -212,5 +212,5 @@
 		</li>
 	</ul>
 
-	<p class="mt-4">Quelle: <a href="https://www.e-recht24.de" class="text-primary">https://www.e-recht24.de</a></p>
+	<p class="my-4">Quelle: <a href="https://www.e-recht24.de" class="text-primary text-sm">https://www.e-recht24.de</a></p>
 </section>

@@ -6,7 +6,7 @@
 	<DarkMode />
 </div>
 
-<main class="bg-background-light dark:bg-background min-h-screen overflow-y-auto text-text-light dark:text-text">
+<main class="bg-background-light dark:bg-background min-h-fit h-screen overflow-y-auto text-text-light dark:text-text">
 	<slot />
 </main>
 

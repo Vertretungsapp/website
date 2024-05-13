@@ -12,17 +12,17 @@
 </script>
 
 <section class="w-full flex items-stretch justify-center lg:justify-between lg:items-center flex-col lg:flex-row py-4 min-h-dvh gradient-1-light dark:gradient-1-dark">
-	<div class="w-full flex items-center justify-center relative">
-		<div class="relative group">
+	<div class="w-full order-2 lg:order-1 flex items-center justify-center relative p-16">
+		<div class="relative group flex flex-col">
 			{#if loaded}
-				<div class="absolute left-32 top-16 group-hover:z-10" transition:fly={{duration: 1000, x: -200}}>
+				<div class="lg:absolute py-8 order-2 block left-32 top-16 group-hover:z-10" transition:fly={{duration: 1000, x: -200}}>
 					<DeviceMockup device="ios">
 						<img class="w-full h-full hidden dark:block" src="/screenshots/plan_dark.png" alt="Screenshot Planansicht" />
 						<img class="w-full h-full block dark:hidden" src="/screenshots/plan_light.png" alt="Screenshot Planansicht" />
 					</DeviceMockup>
 				</div>
 
-				<div transition:fly={{delay: 200,duration: 1000, x: -200}}>
+				<div class="order-1" transition:fly={{delay: 200,duration: 1000, x: -200}}>
 					<DeviceMockup device="ios">
 						<img class="w-full h-full hidden dark:block" src="/screenshots/home_dark.png" alt="Screenshot Homescreen" />
 						<img class="w-full h-full block dark:hidden" src="/screenshots/home_light.png" alt="Screenshot Homescreen" />
@@ -31,10 +31,10 @@
 			{/if}
 		</div>
 	</div>
-	<div class="w-full flex flex-col gap-2">
-		<h1 class="text-7xl">Vertretungsapp<span class="text-primary">.</span></h1>
-		<h2>Deine Alternative zu VpMobil!</h2>
-		<div class="flex items-center gap-2">
+	<div class="w-full order-1 flex py-8 flex-col gap-2 text-center lg:text-left">
+		<h1 class="text-4xl lg:text-7xl">Vertretungsapp<span class="text-primary">.</span></h1>
+		<h2 class="text-xl lg:text-2xl">Deine Alternative zu VpMobil!</h2>
+		<div class="flex items-center flex-col lg:flex-row gap-2 items-full-width px-8 lg:p-0 [&>*]:w-full lg:[&>*]:w-auto">
 			<Button href="https://app.vertretungsapp.de" target="_blank">
 				<ArrowUpRightFromSquareOutline class="me-2" /> Zur App
 			</Button>
@@ -53,9 +53,3 @@
 		</div>
 	</div>
 </section>
-
-<style>
-
-
-
-</style>
