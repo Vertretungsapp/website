@@ -1,6 +1,6 @@
 <script>
 	import { Button, DeviceMockup } from 'flowbite-svelte';
-	import { ArrowUpRightFromSquareOutline, DiscordSolid, GithubSolid, MailBoxSolid } from 'flowbite-svelte-icons';
+	import { ArrowUpRightFromSquareOutline, DownloadOutline, DiscordSolid, GithubSolid, MailBoxSolid } from 'flowbite-svelte-icons';
 	import { fly } from 'svelte/transition';
 	import { onMount } from 'svelte';
 
@@ -44,6 +44,10 @@
 		<div class="flex items-center flex-col lg:flex-row gap-2 items-full-width px-8 lg:p-0 [&>*]:w-full lg:[&>*]:w-auto">
 			<Button href="https://app.vertretungsapp.de" target="_blank">
 				<ArrowUpRightFromSquareOutline class="me-2" /> Zur App
+			</Button>
+
+			<Button href="/install" target="_blank">
+				<DownloadOutline class="me-2" /> Installieren
 			</Button>
 
 			<Button href="/discord" color="alternative" target="_blank">
