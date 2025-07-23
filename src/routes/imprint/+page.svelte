@@ -12,7 +12,7 @@
 		Kocorstra&szlig;e 5<br />
 		02977 Hoyerswerda</p>
 	<h2 class="mt-4">Kontakt</h2>
-	<p>Telefon: 03571 6088641<br />
+	<p>Telefon: 015679 669619<br />
 		E-Mail: support@vertretungsapp.de</p>
 	<h2 class="mt-4">Haftung f&uuml;r Inhalte</h2>
 	<p>Als Diensteanbieter sind wir gem&auml;&szlig; &sect; 7 Abs.1 TMG f&uuml;r eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach &sect;&sect; 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, &uuml;bermittelte oder gespeicherte fremde Informationen zu &uuml;berwachen oder nach Umst&auml;nden zu forschen, die auf eine rechtswidrige T&auml;tigkeit hinweisen.</p>
