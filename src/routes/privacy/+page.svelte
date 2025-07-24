@@ -70,7 +70,7 @@
 	dieser Website ist:</p> <p>Finn Margraf<br />
 	Kocorstra&szlig;e 5<br />
 	02977 Hoyerswerda</p>
-	<p>Telefon: 03571 6088641<br />
+	<p>Telefon: 015679 669619<br />
 		E-Mail: privacy@vertretungsapp.de</p>
 	<p>Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person, die allein oder gemeinsam mit anderen
 		&uuml;ber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.&nbsp;B. Namen, E-Mail-
